@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color:white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.content{
+    background-color: rgb(238, 238, 238);
+    flex: 1;
+    padding: 2rem;
+}
+
+
+.sidebar {
+    width: 200px;
+    color: white;
+    background-color: rgb(53, 45, 45);
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0rem;
+}
+
+.sidebar ul li{
+    margin: 15px 0;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin:  1rem;
+    color: #f0f0f0;
+}
+
+  
+.sidebar ul li a:hover {
+    text-decoration: underline;
+    background-color: #444; /* darker background */
+    color: #fff;            /* optional: change text color */
+    padding: 0rem 0.5rem; /* a little padding to make the highlight look nice /// top-bottom left-right */
+    border-radius: 5px;     /* smooth corners */
+    transition: all 0.4s ease; /* smooth animation */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
