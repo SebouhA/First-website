@@ -1,0 +1,101 @@
+body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+#head {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+main{
+    margin-top: 10px;
+    max-width: 360px;
+}
+
+nav a {
+    margin:  0rem;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 3px;
+    border: 2px solid rgba(201, 201, 201, 0.404);
+    border-radius: 5px;
+}
+  
+
+
+/*Profile picture*/
+
+.Picture_Container {
+    position:relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 30%;
+}
+ 
+.Picture {
+    position:absolute;
+    top:-600px;
+    right:770px;
+    width:0px;
+    height:0px;
+}
+
+.Picture img  {
+   object-fit: cover;
+   scale: 0.20;
+}
+
+
+
+/*Name and address*/
+.My_info{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-left: 10px;
+    text-align:center;
+    text-align: left;
+    color: white;
+}
+
+.My_info div p{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name2{
+    font-size: 15px;
+
+}
+
+
+
+.address{
+    display: flex;
+    margin-top: 10px;
+}
+.address p{
+    font-size: 15px;
+}
+.address svg{
+    width: 15px;
+    
+}

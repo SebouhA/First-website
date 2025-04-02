@@ -1,0 +1,30 @@
+body{
+    background-color: #000000;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main img{
+    margin:auto ;
+}
+
+
+nav a {
+    margin:  0rem;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 3px;
+    border: 2px solid rgba(201, 201, 201, 0.404);
+    border-radius: 5px;
+}
